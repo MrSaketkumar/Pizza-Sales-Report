@@ -43,22 +43,31 @@ for this i have calculated following metrics :-
       SUM(total_price)*100/(SELECT.SUM(total_price) FROM pizza_sales)
          FROM pizza_sales
             GROUP BY pizza_size ;
+            
 10) Total pizzas sold by Category
     
  SELECT pizza_category, SUM(quantity) AS Total Quantity Sold
     FROM pizza_sales
        GROUP BY pizza_category;
+       
 11) TOP 5 Pizzas by Revenue
    
    SELECT TOP 5 pizza_name, sum(total_price) AS Total_Revenue
+       
        FROM pizza_sales
+          
           GROUP BY pizza_name
+     
             ORDER BY pizza_name DESC;
+            
 12) Bottom 5 Pizzas By Revenue
    
- SELECT TOP 5 pizza_name, sum(total_price) AS Total_Revenue
+    SELECT TOP 5 pizza_name, sum(total_price) AS Total_Revenue
+   
      FROM pizza_sales
+     
       GROUP BY pizza_name
+      
        ORDER BY pizza_name ASC;
 
 # From all this metrics, I visualize various aspects of pizza_sales data to gain insights and understands key trends.
