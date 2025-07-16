@@ -65,7 +65,7 @@ for this i have calculated following metrics :-
           GROUP BY pizza_name
            ORDER BY pizza_name ASC;
 
-# From all this metrics, I visualize various aspects of pizza_sales data to gain insights and understands key trends.
-# I Upload mysql data to POWER BI to create dashbords.
+ From all this metrics, I visualize various aspects of pizza_sales data to gain insights and understands key trends.
+ I Upload mysql data to POWER BI to create dashbords.
 <img width="1291" height="723" alt="Screenshot 2025-07-17 013206" src="https://github.com/user-attachments/assets/9ae5dce5-549c-4f75-aa45-f5dd0aada497" />
 <img width="1290" height="722" alt="Screenshot 2025-07-17 013143" src="https://github.com/user-attachments/assets/178db069-c1f3-4eef-a12e-d189cbdfff94" />
